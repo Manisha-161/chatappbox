@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer-layout</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: -12px;
+            margin-right: -12px;
+        }
+
+        .col-3 {
+            width: 25%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .col-9 {
+            width: 75%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .bg-skyblue {
+            background-color: rgb(235, 249, 255);
+        }
+
+        footer {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        footer ul li:first-child {
+            color: blue;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .mt-40 {
+            margin-top: 40px;
+        }
+
+        footer ul li {
+            margin-bottom: 12px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <footer class="bg-skyblue">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, aliquid adipisci. Cum ab ut,
+                        iste repudiandae, illo </p>
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-3">
+                            <ul>
+                                <li>link Header</li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li>link Header</li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li>link Header</li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li>link Header</li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                                <li><a href="">links</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio!</p>
+        </div>
+    </footer>
+</body>
+
+</html>
